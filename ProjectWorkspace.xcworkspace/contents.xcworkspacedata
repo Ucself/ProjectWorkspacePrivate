@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:ProjectAppCommon/ProjectAppCommon.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ProjectAppDataInterface/ProjectAppDataInterface.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ProjectAppDataModel/ProjectAppDataModel.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ProjectAppUIView/ProjectAppUIView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ProjectApp/ProjectApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ProjectApp HD/ProjectApp HD.xcodeproj">
+   </FileRef>
+</Workspace>
