@@ -18,6 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     //这里我只是测试一下提交，看看是否能提交GitHub
+    //研究GitHub使用
     return YES;
 }
 
