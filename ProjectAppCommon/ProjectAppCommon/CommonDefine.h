@@ -40,8 +40,4 @@ NSLog(@"%@ <- %@ ->",[NSString stringWithUTF8String:__FUNCTION__], [NSString str
 #define deviceHeight  [UIScreen mainScreen].bounds.size.height
 #define deviceUUID  [[[UIDevice currentDevice] identifierForVendor] UUIDString]
 
-#define KNotifyEnterBackGround   @"enterBackGround"
-#define KNotifyBecomeActive      @"becomeActive"
-
-
 #endif

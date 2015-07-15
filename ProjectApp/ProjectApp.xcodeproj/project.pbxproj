@@ -13,6 +13,7 @@
 		8A3F14641ACA42F600E5A206 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3F14631ACA42F600E5A206 /* Images.xcassets */; };
 		8A3F14671ACA42F600E5A206 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A3F14651ACA42F600E5A206 /* LaunchScreen.xib */; };
 		8A3F14731ACA42F700E5A206 /* ProjectAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F14721ACA42F700E5A206 /* ProjectAppTests.m */; };
+		8AE1E1DF1B560E67005E547A /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1E1DE1B560E67005E547A /* AppViewController.m */; };
 		8AF38CF21B3BB4CD00193382 /* ProjectAppCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF38CF11B3BB4CD00193382 /* ProjectAppCommon.framework */; };
 		8AF38CF41B3BB4D100193382 /* ProjectAppDataInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF38CF31B3BB4D100193382 /* ProjectAppDataInterface.framework */; };
 		8AF38CF61B3BCB3800193382 /* ProjectAppDataModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF38CF51B3BCB3800193382 /* ProjectAppDataModel.framework */; };
@@ -41,6 +42,8 @@
 		8A3F146C1ACA42F700E5A206 /* ProjectAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3F14711ACA42F700E5A206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A3F14721ACA42F700E5A206 /* ProjectAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectAppTests.m; sourceTree = "<group>"; };
+		8AE1E1DD1B560E67005E547A /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
+		8AE1E1DE1B560E67005E547A /* AppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppViewController.m; sourceTree = "<group>"; };
 		8AF38CF11B3BB4CD00193382 /* ProjectAppCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProjectAppCommon.framework; path = "../ProjectAppCommon/build/Debug-iphoneos/ProjectAppCommon.framework"; sourceTree = "<group>"; };
 		8AF38CF31B3BB4D100193382 /* ProjectAppDataInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProjectAppDataInterface.framework; path = "../ProjectAppDataInterface/build/Debug-iphoneos/ProjectAppDataInterface.framework"; sourceTree = "<group>"; };
 		8AF38CF51B3BCB3800193382 /* ProjectAppDataModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProjectAppDataModel.framework; path = "../ProjectAppDataModel/build/Debug-iphoneos/ProjectAppDataModel.framework"; sourceTree = "<group>"; };
@@ -97,6 +100,7 @@
 				8AF38CF01B3BB49D00193382 /* Model */,
 				8A3F16121ACAAE6900E5A206 /* UIView */,
 				8A3F16131ACAAFB500E5A206 /* Controller */,
+				8AE1E1DB1B560D99005E547A /* TestDemo */,
 				8A3F145A1ACA42F600E5A206 /* AppDelegate.h */,
 				8A3F145B1ACA42F600E5A206 /* AppDelegate.m */,
 				8A3F14601ACA42F600E5A206 /* Main.storyboard */,
@@ -145,6 +149,15 @@
 			children = (
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		8AE1E1DB1B560D99005E547A /* TestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8AE1E1DD1B560E67005E547A /* AppViewController.h */,
+				8AE1E1DE1B560E67005E547A /* AppViewController.m */,
+			);
+			path = TestDemo;
 			sourceTree = "<group>";
 		};
 		8AF38CF01B3BB49D00193382 /* Model */ = {
@@ -257,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A3F145C1ACA42F600E5A206 /* AppDelegate.m in Sources */,
+				8AE1E1DF1B560E67005E547A /* AppViewController.m in Sources */,
 				8A3F14591ACA42F600E5A206 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
