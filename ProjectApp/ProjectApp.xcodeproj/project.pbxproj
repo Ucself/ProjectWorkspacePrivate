@@ -16,6 +16,7 @@
 		8A9860A91B577F5800B6F257 /* TestDemo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9860A81B577F5800B6F257 /* TestDemo.storyboard */; };
 		8A9860B41B5789CC00B6F257 /* JsonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9860AE1B5789CC00B6F257 /* JsonBuilder.m */; };
 		8A9860BC1B5795D500B6F257 /* ResultDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9860BB1B5795D500B6F257 /* ResultDataModel.m */; };
+		8A9860BF1B57A0FD00B6F257 /* NetInterfaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9860BE1B57A0FD00B6F257 /* NetInterfaceManager.m */; };
 		8AE1E1DF1B560E67005E547A /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1E1DE1B560E67005E547A /* AppViewController.m */; };
 		8AF38CF21B3BB4CD00193382 /* ProjectAppCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF38CF11B3BB4CD00193382 /* ProjectAppCommon.framework */; };
 		8AF38CF41B3BB4D100193382 /* ProjectAppDataInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF38CF31B3BB4D100193382 /* ProjectAppDataInterface.framework */; };
@@ -51,6 +52,8 @@
 		8A9860B11B5789CC00B6F257 /* ProtocolDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolDefine.h; sourceTree = "<group>"; };
 		8A9860BA1B5795D500B6F257 /* ResultDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultDataModel.h; sourceTree = "<group>"; };
 		8A9860BB1B5795D500B6F257 /* ResultDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultDataModel.m; sourceTree = "<group>"; };
+		8A9860BD1B57A0FD00B6F257 /* NetInterfaceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetInterfaceManager.h; sourceTree = "<group>"; };
+		8A9860BE1B57A0FD00B6F257 /* NetInterfaceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetInterfaceManager.m; sourceTree = "<group>"; };
 		8AE1E1DD1B560E67005E547A /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
 		8AE1E1DE1B560E67005E547A /* AppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppViewController.m; sourceTree = "<group>"; };
 		8AF38CF11B3BB4CD00193382 /* ProjectAppCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProjectAppCommon.framework; path = "../ProjectAppCommon/build/Debug-iphoneos/ProjectAppCommon.framework"; sourceTree = "<group>"; };
@@ -178,6 +181,8 @@
 				8A9860AE1B5789CC00B6F257 /* JsonBuilder.m */,
 				8A9860BA1B5795D500B6F257 /* ResultDataModel.h */,
 				8A9860BB1B5795D500B6F257 /* ResultDataModel.m */,
+				8A9860BD1B57A0FD00B6F257 /* NetInterfaceManager.h */,
+				8A9860BE1B57A0FD00B6F257 /* NetInterfaceManager.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -304,6 +309,7 @@
 				8A9860BC1B5795D500B6F257 /* ResultDataModel.m in Sources */,
 				8A3F145C1ACA42F600E5A206 /* AppDelegate.m in Sources */,
 				8A9860B41B5789CC00B6F257 /* JsonBuilder.m in Sources */,
+				8A9860BF1B57A0FD00B6F257 /* NetInterfaceManager.m in Sources */,
 				8AE1E1DF1B560E67005E547A /* AppViewController.m in Sources */,
 				8A3F14591ACA42F600E5A206 /* main.m in Sources */,
 			);
