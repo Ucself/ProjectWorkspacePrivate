@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Fgi-v9-GfV">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="GNR-uw-upD">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,12 +17,45 @@
                     <view key="view" contentMode="scaleToFill" id="suf-XF-gPW">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpJ-mt-qqj">
+                                <rect key="frame" x="16" y="94" width="288" height="30"/>
+                                <state key="normal" title="AppCommon功能测试">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qpJ-mt-qqj" firstAttribute="top" secondItem="BnB-TF-EJv" secondAttribute="bottom" constant="30" id="1bW-ds-T1d"/>
+                            <constraint firstItem="qpJ-mt-qqj" firstAttribute="leading" secondItem="suf-XF-gPW" secondAttribute="leadingMargin" id="IGG-2l-tNn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qpJ-mt-qqj" secondAttribute="trailing" id="f0d-Od-O0k"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Tw3-fc-MrC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="deO-xa-WRB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="192" y="420"/>
+            <point key="canvasLocation" x="449" y="446"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="9Fg-vQ-zU8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GNR-uw-upD" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="c5T-Yp-Frf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="w9d-Yg-vA8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Fgi-v9-GfV" kind="relationship" relationship="rootViewController" id="F9f-dy-YVg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cKf-v1-zvg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="49" y="446"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
