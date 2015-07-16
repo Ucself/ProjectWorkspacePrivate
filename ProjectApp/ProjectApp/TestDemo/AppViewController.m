@@ -10,4 +10,17 @@
 
 @implementation AppViewController
 
+#pragma mark --
+
+-(void)viewDidLoad{
+    [super viewDidLoad];
+}
+
+#pragma mark --
+
+- (IBAction)commonTestClick:(id)sender {
+    [self performSegueWithIdentifier:@"toCommonTest" sender:self];
+}
+
+
 @end
