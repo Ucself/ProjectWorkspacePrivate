@@ -9,7 +9,7 @@
 #ifndef ProjectAppCommon_CommonDefine_h
 #define ProjectAppCommon_CommonDefine_h
 
-//颜色转换
+//16进制颜色转换
 #define UIColorFromRGB(rgbValue) [UIColor \
 colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \

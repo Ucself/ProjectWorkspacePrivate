@@ -19,7 +19,7 @@
 		8AF38C631B3A98C400193382 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38C4C1B3A98C400193382 /* MASConstraintMaker.m */; };
 		8AF38C641B3A98C400193382 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38C4D1B3A98C400193382 /* MASLayoutConstraint.h */; };
 		8AF38C651B3A98C400193382 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38C4E1B3A98C400193382 /* MASLayoutConstraint.m */; };
-		8AF38C661B3A98C400193382 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38C4F1B3A98C400193382 /* Masonry.h */; };
+		8AF38C661B3A98C400193382 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38C4F1B3A98C400193382 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AF38C671B3A98C400193382 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38C501B3A98C400193382 /* MASUtilities.h */; };
 		8AF38C681B3A98C400193382 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38C511B3A98C400193382 /* MASViewAttribute.h */; };
 		8AF38C691B3A98C400193382 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38C521B3A98C400193382 /* MASViewAttribute.m */; };
@@ -330,6 +330,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AF38C661B3A98C400193382 /* Masonry.h in Headers */,
 				8AF38C6F1B3A98C400193382 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
 				8AF38CCA1B3BADCF00193382 /* BannerView.h in Headers */,
 				8AF38CEA1B3BB1E700193382 /* WaitView.h in Headers */,
@@ -347,7 +348,6 @@
 				8AF38CDA1B3BB05E00193382 /* PopoverMenu.h in Headers */,
 				8AF38C761B3A9AD400193382 /* BaseUIView.h in Headers */,
 				8AF38C641B3A98C400193382 /* MASLayoutConstraint.h in Headers */,
-				8AF38C661B3A98C400193382 /* Masonry.h in Headers */,
 				8AF38C681B3A98C400193382 /* MASViewAttribute.h in Headers */,
 				8AF38CBE1B3BAC7000193382 /* SegmentedUIView.h in Headers */,
 				8AF38C6E1B3A98C400193382 /* NSArray+MASShorthandAdditions.h in Headers */,
