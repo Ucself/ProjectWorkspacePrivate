@@ -8,7 +8,6 @@
 
 #import "WaitView.h"
 #import <QuartzCore/QuartzCore.h>
-//#import "UIImage+bundle.h"
 
 @interface WaitView ()
 {

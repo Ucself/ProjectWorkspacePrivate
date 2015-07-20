@@ -7,7 +7,6 @@
 //
 
 #import "SingleUIView.h"
-//#import "UIImage+bundle.h"
 #import <QuartzCore/QuartzCore.h>
 
 @interface SingleUIView (){

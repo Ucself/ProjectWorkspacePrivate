@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaseUIView.h"
+#pragma mark -- 引用布局文件
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+#import "Masonry.h"
+
 @class SegmentedUIView;
 
 //图标类型类型
@@ -33,7 +39,7 @@ typedef NS_ENUM(uint32_t, SegmentedSortType) {
 @end
 
 
-@interface SegmentedUIView :BaseUIView
+@interface SegmentedUIView :UIView
 
 #pragma mark --- xib属性
 @property (weak, nonatomic) IBOutlet UIScrollView *mainUIScrollView;

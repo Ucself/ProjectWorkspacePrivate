@@ -33,8 +33,6 @@
 		8AF38C711B3A98C400193382 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38C5A1B3A98C400193382 /* View+MASAdditions.h */; };
 		8AF38C721B3A98C400193382 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38C5B1B3A98C400193382 /* View+MASAdditions.m */; };
 		8AF38C731B3A98C400193382 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38C5C1B3A98C400193382 /* View+MASShorthandAdditions.h */; };
-		8AF38C761B3A9AD400193382 /* BaseUIView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38C741B3A9AD400193382 /* BaseUIView.h */; };
-		8AF38C771B3A9AD400193382 /* BaseUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38C751B3A9AD400193382 /* BaseUIView.m */; };
 		8AF38C8E1B3BA60500193382 /* ProjectAppCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF38C8D1B3BA60500193382 /* ProjectAppCommon.framework */; };
 		8AF38C961B3BA90E00193382 /* ImagePreView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38C901B3BA90E00193382 /* ImagePreView.h */; };
 		8AF38C971B3BA90E00193382 /* ImagePreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38C911B3BA90E00193382 /* ImagePreView.m */; };
@@ -117,8 +115,6 @@
 		8AF38C5A1B3A98C400193382 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
 		8AF38C5B1B3A98C400193382 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
 		8AF38C5C1B3A98C400193382 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		8AF38C741B3A9AD400193382 /* BaseUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseUIView.h; sourceTree = "<group>"; };
-		8AF38C751B3A9AD400193382 /* BaseUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseUIView.m; sourceTree = "<group>"; };
 		8AF38C8D1B3BA60500193382 /* ProjectAppCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProjectAppCommon.framework; path = "../ProjectAppCommon/build/Debug-iphoneos/ProjectAppCommon.framework"; sourceTree = "<group>"; };
 		8AF38C901B3BA90E00193382 /* ImagePreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePreView.h; sourceTree = "<group>"; };
 		8AF38C911B3BA90E00193382 /* ImagePreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePreView.m; sourceTree = "<group>"; };
@@ -205,8 +201,6 @@
 		8A3F15061ACA470D00E5A206 /* ProjectAppUIView */ = {
 			isa = PBXGroup;
 			children = (
-				8AF38C741B3A9AD400193382 /* BaseUIView.h */,
-				8AF38C751B3A9AD400193382 /* BaseUIView.m */,
 				8AF38CC81B3BADCF00193382 /* BannerView.h */,
 				8AF38CC91B3BADCF00193382 /* BannerView.m */,
 				8AF38CD01B3BAF5600193382 /* DynaButton.h */,
@@ -346,7 +340,6 @@
 				8AF38C981B3BA90E00193382 /* PZPagingScrollView.h in Headers */,
 				8AF38CCE1B3BAF2A00193382 /* MBProgressHUD.h in Headers */,
 				8AF38CDA1B3BB05E00193382 /* PopoverMenu.h in Headers */,
-				8AF38C761B3A9AD400193382 /* BaseUIView.h in Headers */,
 				8AF38C641B3A98C400193382 /* MASLayoutConstraint.h in Headers */,
 				8AF38C681B3A98C400193382 /* MASViewAttribute.h in Headers */,
 				8AF38CBE1B3BAC7000193382 /* SegmentedUIView.h in Headers */,
@@ -471,7 +464,6 @@
 				8AF38C6D1B3A98C400193382 /* NSArray+MASAdditions.m in Sources */,
 				8AF38C991B3BA90E00193382 /* PZPagingScrollView.m in Sources */,
 				8AF38CE31B3BB14500193382 /* TipsView.m in Sources */,
-				8AF38C771B3A9AD400193382 /* BaseUIView.m in Sources */,
 				8AF38CE71B3BB1B100193382 /* UILineLabel.m in Sources */,
 				8AF38C691B3A98C400193382 /* MASViewAttribute.m in Sources */,
 				8AF38C651B3A98C400193382 /* MASLayoutConstraint.m in Sources */,

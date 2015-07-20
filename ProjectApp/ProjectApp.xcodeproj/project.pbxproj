@@ -14,7 +14,6 @@
 		8A3F14671ACA42F600E5A206 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A3F14651ACA42F600E5A206 /* LaunchScreen.xib */; };
 		8A3F14731ACA42F700E5A206 /* ProjectAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F14721ACA42F700E5A206 /* ProjectAppTests.m */; };
 		8A4DE5B71B58EA5100A26BDE /* BaseUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4DE5B61B58EA5100A26BDE /* BaseUIViewController.m */; };
-		8A4DE5BC1B58F70700A26BDE /* NetPrompt.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4DE5BB1B58F70700A26BDE /* NetPrompt.m */; };
 		8A9860A91B577F5800B6F257 /* TestDemo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9860A81B577F5800B6F257 /* TestDemo.storyboard */; };
 		8A9860B41B5789CC00B6F257 /* JsonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9860AE1B5789CC00B6F257 /* JsonBuilder.m */; };
 		8A9860BC1B5795D500B6F257 /* ResultDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9860BB1B5795D500B6F257 /* ResultDataModel.m */; };
@@ -50,8 +49,6 @@
 		8A3F14721ACA42F700E5A206 /* ProjectAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectAppTests.m; sourceTree = "<group>"; };
 		8A4DE5B51B58EA5100A26BDE /* BaseUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseUIViewController.h; sourceTree = "<group>"; };
 		8A4DE5B61B58EA5100A26BDE /* BaseUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseUIViewController.m; sourceTree = "<group>"; };
-		8A4DE5BA1B58F70700A26BDE /* NetPrompt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetPrompt.h; sourceTree = "<group>"; };
-		8A4DE5BB1B58F70700A26BDE /* NetPrompt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetPrompt.m; sourceTree = "<group>"; };
 		8A9860A81B577F5800B6F257 /* TestDemo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TestDemo.storyboard; sourceTree = "<group>"; };
 		8A9860AD1B5789CC00B6F257 /* JsonBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonBuilder.h; sourceTree = "<group>"; };
 		8A9860AE1B5789CC00B6F257 /* JsonBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonBuilder.m; sourceTree = "<group>"; };
@@ -161,8 +158,6 @@
 			isa = PBXGroup;
 			children = (
 				8A4DE5B81B58EA8300A26BDE /* Base */,
-				8A4DE5BA1B58F70700A26BDE /* NetPrompt.h */,
-				8A4DE5BB1B58F70700A26BDE /* NetPrompt.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -339,7 +334,6 @@
 				8AE1E1DF1B560E67005E547A /* AppViewController.m in Sources */,
 				8A4DE5B71B58EA5100A26BDE /* BaseUIViewController.m in Sources */,
 				8A3F14591ACA42F600E5A206 /* main.m in Sources */,
-				8A4DE5BC1B58F70700A26BDE /* NetPrompt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

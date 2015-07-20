@@ -10,8 +10,6 @@
 		8A3F15301ACA475300E5A206 /* ProjectAppDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A3F152F1ACA475300E5A206 /* ProjectAppDataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A3F15361ACA475300E5A206 /* ProjectAppDataModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3F152A1ACA475300E5A206 /* ProjectAppDataModel.framework */; };
 		8A3F153D1ACA475300E5A206 /* ProjectAppDataModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F153C1ACA475300E5A206 /* ProjectAppDataModelTests.m */; };
-		8AF38C7A1B3BA28400193382 /* BaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38C781B3BA28400193382 /* BaseModel.h */; };
-		8AF38C7B1B3BA28400193382 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38C791B3BA28400193382 /* BaseModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +29,6 @@
 		8A3F15351ACA475300E5A206 /* ProjectAppDataModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectAppDataModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3F153B1ACA475300E5A206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A3F153C1ACA475300E5A206 /* ProjectAppDataModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectAppDataModelTests.m; sourceTree = "<group>"; };
-		8AF38C781B3BA28400193382 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
-		8AF38C791B3BA28400193382 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +71,6 @@
 		8A3F152C1ACA475300E5A206 /* ProjectAppDataModel */ = {
 			isa = PBXGroup;
 			children = (
-				8AF38C781B3BA28400193382 /* BaseModel.h */,
-				8AF38C791B3BA28400193382 /* BaseModel.m */,
 				8A3F152F1ACA475300E5A206 /* ProjectAppDataModel.h */,
 				8A3F152D1ACA475300E5A206 /* Supporting Files */,
 			);
@@ -116,7 +110,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A3F15301ACA475300E5A206 /* ProjectAppDataModel.h in Headers */,
-				8AF38C7A1B3BA28400193382 /* BaseModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +209,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AF38C7B1B3BA28400193382 /* BaseModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
