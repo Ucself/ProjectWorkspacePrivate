@@ -34,7 +34,7 @@
 		8AF38C721B3A98C400193382 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38C5B1B3A98C400193382 /* View+MASAdditions.m */; };
 		8AF38C731B3A98C400193382 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38C5C1B3A98C400193382 /* View+MASShorthandAdditions.h */; };
 		8AF38C8E1B3BA60500193382 /* ProjectAppCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF38C8D1B3BA60500193382 /* ProjectAppCommon.framework */; };
-		8AF38C961B3BA90E00193382 /* ImagePreView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38C901B3BA90E00193382 /* ImagePreView.h */; };
+		8AF38C961B3BA90E00193382 /* ImagePreView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38C901B3BA90E00193382 /* ImagePreView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AF38C971B3BA90E00193382 /* ImagePreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38C911B3BA90E00193382 /* ImagePreView.m */; };
 		8AF38C981B3BA90E00193382 /* PZPagingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38C921B3BA90E00193382 /* PZPagingScrollView.h */; };
 		8AF38C991B3BA90E00193382 /* PZPagingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38C931B3BA90E00193382 /* PZPagingScrollView.m */; };
@@ -43,7 +43,7 @@
 		8AF38C9D1B3BA9B300193382 /* ProjectAppDataInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF38C9C1B3BA9B300193382 /* ProjectAppDataInterface.framework */; };
 		8AF38CBC1B3BAC7000193382 /* Down.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF38CB01B3BAC7000193382 /* Down.png */; };
 		8AF38CBD1B3BAC7000193382 /* Down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF38CB11B3BAC7000193382 /* Down@3x.png */; };
-		8AF38CBE1B3BAC7000193382 /* SegmentedUIView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38CB21B3BAC7000193382 /* SegmentedUIView.h */; };
+		8AF38CBE1B3BAC7000193382 /* SegmentedUIView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38CB21B3BAC7000193382 /* SegmentedUIView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AF38CBF1B3BAC7000193382 /* SegmentedUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38CB31B3BAC7000193382 /* SegmentedUIView.m */; };
 		8AF38CC01B3BAC7000193382 /* SegmentedUIView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AF38CB41B3BAC7000193382 /* SegmentedUIView.xib */; };
 		8AF38CC11B3BAC7000193382 /* Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF38CB51B3BAC7000193382 /* Selected.png */; };
@@ -53,25 +53,25 @@
 		8AF38CC51B3BAC7000193382 /* SingleUIView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AF38CB91B3BAC7000193382 /* SingleUIView.xib */; };
 		8AF38CC61B3BAC7000193382 /* Upward.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF38CBA1B3BAC7000193382 /* Upward.png */; };
 		8AF38CC71B3BAC7000193382 /* Upward@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF38CBB1B3BAC7000193382 /* Upward@3x.png */; };
-		8AF38CCA1B3BADCF00193382 /* BannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38CC81B3BADCF00193382 /* BannerView.h */; };
+		8AF38CCA1B3BADCF00193382 /* BannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38CC81B3BADCF00193382 /* BannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AF38CCB1B3BADCF00193382 /* BannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38CC91B3BADCF00193382 /* BannerView.m */; };
-		8AF38CCE1B3BAF2A00193382 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38CCC1B3BAF2A00193382 /* MBProgressHUD.h */; };
+		8AF38CCE1B3BAF2A00193382 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38CCC1B3BAF2A00193382 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AF38CCF1B3BAF2A00193382 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38CCD1B3BAF2A00193382 /* MBProgressHUD.m */; };
-		8AF38CD21B3BAF5600193382 /* DynaButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38CD01B3BAF5600193382 /* DynaButton.h */; };
+		8AF38CD21B3BAF5600193382 /* DynaButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38CD01B3BAF5600193382 /* DynaButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AF38CD31B3BAF5600193382 /* DynaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38CD11B3BAF5600193382 /* DynaButton.m */; };
-		8AF38CD61B3BAF9700193382 /* NetPrompt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38CD41B3BAF9700193382 /* NetPrompt.h */; };
+		8AF38CD61B3BAF9700193382 /* NetPrompt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38CD41B3BAF9700193382 /* NetPrompt.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AF38CD71B3BAF9700193382 /* NetPrompt.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38CD51B3BAF9700193382 /* NetPrompt.m */; };
-		8AF38CDA1B3BB05E00193382 /* PopoverMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38CD81B3BB05E00193382 /* PopoverMenu.h */; };
+		8AF38CDA1B3BB05E00193382 /* PopoverMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38CD81B3BB05E00193382 /* PopoverMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AF38CDB1B3BB05E00193382 /* PopoverMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38CD91B3BB05E00193382 /* PopoverMenu.m */; };
-		8AF38CDE1B3BB0CF00193382 /* TimerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38CDC1B3BB0CF00193382 /* TimerView.h */; };
+		8AF38CDE1B3BB0CF00193382 /* TimerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38CDC1B3BB0CF00193382 /* TimerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AF38CDF1B3BB0CF00193382 /* TimerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38CDD1B3BB0CF00193382 /* TimerView.m */; };
-		8AF38CE21B3BB14500193382 /* TipsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38CE01B3BB14500193382 /* TipsView.h */; };
+		8AF38CE21B3BB14500193382 /* TipsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38CE01B3BB14500193382 /* TipsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AF38CE31B3BB14500193382 /* TipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38CE11B3BB14500193382 /* TipsView.m */; };
-		8AF38CE61B3BB1B100193382 /* UILineLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38CE41B3BB1B100193382 /* UILineLabel.h */; };
+		8AF38CE61B3BB1B100193382 /* UILineLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38CE41B3BB1B100193382 /* UILineLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AF38CE71B3BB1B100193382 /* UILineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38CE51B3BB1B100193382 /* UILineLabel.m */; };
-		8AF38CEA1B3BB1E700193382 /* WaitView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38CE81B3BB1E700193382 /* WaitView.h */; };
+		8AF38CEA1B3BB1E700193382 /* WaitView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38CE81B3BB1E700193382 /* WaitView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AF38CEB1B3BB1E700193382 /* WaitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38CE91B3BB1E700193382 /* WaitView.m */; };
-		8AF38CEE1B3BB2F400193382 /* OutlineLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38CEC1B3BB2F400193382 /* OutlineLabel.h */; };
+		8AF38CEE1B3BB2F400193382 /* OutlineLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38CEC1B3BB2F400193382 /* OutlineLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AF38CEF1B3BB2F400193382 /* OutlineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38CED1B3BB2F400193382 /* OutlineLabel.m */; };
 /* End PBXBuildFile section */
 
@@ -324,33 +324,33 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AF38CBE1B3BAC7000193382 /* SegmentedUIView.h in Headers */,
+				8AF38C961B3BA90E00193382 /* ImagePreView.h in Headers */,
+				8AF38CEA1B3BB1E700193382 /* WaitView.h in Headers */,
+				8AF38CEE1B3BB2F400193382 /* OutlineLabel.h in Headers */,
+				8AF38CE61B3BB1B100193382 /* UILineLabel.h in Headers */,
+				8AF38CE21B3BB14500193382 /* TipsView.h in Headers */,
+				8AF38CDE1B3BB0CF00193382 /* TimerView.h in Headers */,
+				8AF38CDA1B3BB05E00193382 /* PopoverMenu.h in Headers */,
+				8AF38CD61B3BAF9700193382 /* NetPrompt.h in Headers */,
+				8AF38CCE1B3BAF2A00193382 /* MBProgressHUD.h in Headers */,
+				8AF38CD21B3BAF5600193382 /* DynaButton.h in Headers */,
+				8AF38CCA1B3BADCF00193382 /* BannerView.h in Headers */,
 				8AF38C661B3A98C400193382 /* Masonry.h in Headers */,
 				8AF38C6F1B3A98C400193382 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				8AF38CCA1B3BADCF00193382 /* BannerView.h in Headers */,
-				8AF38CEA1B3BB1E700193382 /* WaitView.h in Headers */,
 				8AF38C6A1B3A98C400193382 /* MASViewConstraint.h in Headers */,
 				8AF38C5F1B3A98C400193382 /* MASConstraint+Private.h in Headers */,
-				8AF38CD61B3BAF9700193382 /* NetPrompt.h in Headers */,
 				8AF38C6C1B3A98C400193382 /* NSArray+MASAdditions.h in Headers */,
 				8AF38C9A1B3BA90E00193382 /* PZPhotoView.h in Headers */,
-				8AF38CE21B3BB14500193382 /* TipsView.h in Headers */,
-				8AF38CE61B3BB1B100193382 /* UILineLabel.h in Headers */,
 				8AF38C671B3A98C400193382 /* MASUtilities.h in Headers */,
 				8AF38C711B3A98C400193382 /* View+MASAdditions.h in Headers */,
 				8AF38C981B3BA90E00193382 /* PZPagingScrollView.h in Headers */,
-				8AF38CCE1B3BAF2A00193382 /* MBProgressHUD.h in Headers */,
-				8AF38CDA1B3BB05E00193382 /* PopoverMenu.h in Headers */,
 				8AF38C641B3A98C400193382 /* MASLayoutConstraint.h in Headers */,
 				8AF38C681B3A98C400193382 /* MASViewAttribute.h in Headers */,
-				8AF38CBE1B3BAC7000193382 /* SegmentedUIView.h in Headers */,
 				8AF38C6E1B3A98C400193382 /* NSArray+MASShorthandAdditions.h in Headers */,
-				8AF38CDE1B3BB0CF00193382 /* TimerView.h in Headers */,
 				8AF38CC31B3BAC7000193382 /* SingleUIView.h in Headers */,
 				8AF38C621B3A98C400193382 /* MASConstraintMaker.h in Headers */,
-				8AF38CEE1B3BB2F400193382 /* OutlineLabel.h in Headers */,
-				8AF38CD21B3BAF5600193382 /* DynaButton.h in Headers */,
 				8A3F150A1ACA470D00E5A206 /* ProjectAppUIView.h in Headers */,
-				8AF38C961B3BA90E00193382 /* ImagePreView.h in Headers */,
 				8AF38C5D1B3A98C400193382 /* MASCompositeConstraint.h in Headers */,
 				8AF38C731B3A98C400193382 /* View+MASShorthandAdditions.h in Headers */,
 				8AF38C601B3A98C400193382 /* MASConstraint.h in Headers */,

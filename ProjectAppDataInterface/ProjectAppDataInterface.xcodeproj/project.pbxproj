@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A3CDB051B5CEC94004496AA /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A3CDB031B5CEC94004496AA /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A3CDB061B5CEC94004496AA /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3CDB041B5CEC94004496AA /* Reachability.m */; };
 		8A3F15561ACA523400E5A206 /* ProjectAppDataInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A3F15551ACA523400E5A206 /* ProjectAppDataInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A3F155C1ACA523400E5A206 /* ProjectAppDataInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3F15501ACA523400E5A206 /* ProjectAppDataInterface.framework */; };
 		8A3F15631ACA523400E5A206 /* ProjectAppDataInterfaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F15621ACA523400E5A206 /* ProjectAppDataInterfaceTests.m */; };
@@ -78,6 +80,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A3CDB031B5CEC94004496AA /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		8A3CDB041B5CEC94004496AA /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		8A3F15501ACA523400E5A206 /* ProjectAppDataInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProjectAppDataInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3F15541ACA523400E5A206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A3F15551ACA523400E5A206 /* ProjectAppDataInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectAppDataInterface.h; sourceTree = "<group>"; };
@@ -191,6 +195,8 @@
 				8A8031681B39375600C91FD8 /* FileManager.m */,
 				8A8031C91B39487500C91FD8 /* FMDBUtils.h */,
 				8A8031CA1B39487500C91FD8 /* FMDBUtils.m */,
+				8A3CDB031B5CEC94004496AA /* Reachability.h */,
+				8A3CDB041B5CEC94004496AA /* Reachability.m */,
 				8A8031BD1B39487500C91FD8 /* FMDB */,
 				8A8031731B39425700C91FD8 /* AFNetworking */,
 				8A8031871B39425700C91FD8 /* UIKit+AFNetworking */,
@@ -300,6 +306,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A3CDB051B5CEC94004496AA /* Reachability.h in Headers */,
 				8A8031B41B39425700C91FD8 /* UIImageView+AFNetworking.h in Headers */,
 				8A8031D41B39487500C91FD8 /* FMResultSet.h in Headers */,
 				8A8031D61B39487500C91FD8 /* FMDBUtils.h in Headers */,
@@ -428,6 +435,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A3CDB061B5CEC94004496AA /* Reachability.m in Sources */,
 				8A8031B81B39425700C91FD8 /* UIProgressView+AFNetworking.m in Sources */,
 				8A8031CC1B39487500C91FD8 /* FMDatabase.m in Sources */,
 				8A8031A51B39425700C91FD8 /* AFURLConnectionOperation.m in Sources */,
