@@ -63,9 +63,9 @@
 		8A8031D51B39487500C91FD8 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8031C81B39487500C91FD8 /* FMResultSet.m */; };
 		8A8031D61B39487500C91FD8 /* FMDBUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A8031C91B39487500C91FD8 /* FMDBUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A8031D71B39487500C91FD8 /* FMDBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8031CA1B39487500C91FD8 /* FMDBUtils.m */; };
+		8ABA92E11B5DE7C100BB2300 /* ProjectAppCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABA92E01B5DE7C100BB2300 /* ProjectAppCommon.framework */; };
 		8AF38C3D1B3A895A00193382 /* NetInterFace.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF38C3B1B3A895A00193382 /* NetInterFace.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AF38C3E1B3A895A00193382 /* NetInterFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38C3C1B3A895A00193382 /* NetInterFace.m */; };
-		8AF38C421B3A8AE300193382 /* ProjectAppCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF38C411B3A8AE300193382 /* ProjectAppCommon.framework */; };
 		8AF38C441B3A8C2D00193382 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF38C431B3A8C2D00193382 /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
 
@@ -139,9 +139,9 @@
 		8A8031C81B39487500C91FD8 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		8A8031C91B39487500C91FD8 /* FMDBUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBUtils.h; sourceTree = "<group>"; };
 		8A8031CA1B39487500C91FD8 /* FMDBUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBUtils.m; sourceTree = "<group>"; };
+		8ABA92E01B5DE7C100BB2300 /* ProjectAppCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProjectAppCommon.framework; path = "../../../../Library/Developer/Xcode/DerivedData/ProjectWorkspace-cazurdojvrvbzzesqvtcawqljovi/Build/Products/Debug-iphoneos/ProjectAppCommon.framework"; sourceTree = "<group>"; };
 		8AF38C3B1B3A895A00193382 /* NetInterFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetInterFace.h; sourceTree = "<group>"; };
 		8AF38C3C1B3A895A00193382 /* NetInterFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetInterFace.m; sourceTree = "<group>"; };
-		8AF38C411B3A8AE300193382 /* ProjectAppCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProjectAppCommon.framework; path = "../ProjectAppCommon/build/Debug-iphoneos/ProjectAppCommon.framework"; sourceTree = "<group>"; };
 		8AF38C431B3A8C2D00193382 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -150,8 +150,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ABA92E11B5DE7C100BB2300 /* ProjectAppCommon.framework in Frameworks */,
 				8AF38C441B3A8C2D00193382 /* libsqlite3.0.dylib in Frameworks */,
-				8AF38C421B3A8AE300193382 /* ProjectAppCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,8 +169,8 @@
 		8A3F15461ACA523400E5A206 = {
 			isa = PBXGroup;
 			children = (
+				8ABA92E01B5DE7C100BB2300 /* ProjectAppCommon.framework */,
 				8AF38C431B3A8C2D00193382 /* libsqlite3.0.dylib */,
-				8AF38C411B3A8AE300193382 /* ProjectAppCommon.framework */,
 				8A3F15521ACA523400E5A206 /* ProjectAppDataInterface */,
 				8A3F155F1ACA523400E5A206 /* ProjectAppDataInterfaceTests */,
 				8A3F15511ACA523400E5A206 /* Products */,
@@ -577,6 +577,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/libj/Documents/Projects/TemplateProjects/TemplateProjects2.0/ProjectWorkspace/ProjectAppCommon/build/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ProjectWorkspace-cazurdojvrvbzzesqvtcawqljovi/Build/Products/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = ProjectAppDataInterface/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -596,6 +597,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/libj/Documents/Projects/TemplateProjects/TemplateProjects2.0/ProjectWorkspace/ProjectAppCommon/build/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ProjectWorkspace-cazurdojvrvbzzesqvtcawqljovi/Build/Products/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = ProjectAppDataInterface/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";

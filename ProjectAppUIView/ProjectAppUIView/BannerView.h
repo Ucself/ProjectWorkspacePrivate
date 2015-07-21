@@ -7,6 +7,8 @@
 //  封装的首页的头部滚动视图
 
 #import <UIKit/UIKit.h>
+//#import "AppBaseUIView.h"
+
 #pragma mark -- 引用布局文件
 //define this constant if you want to use Masonry without the 'mas_' prefix
 #define MAS_SHORTHAND

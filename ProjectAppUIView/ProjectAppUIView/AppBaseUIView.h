@@ -1,8 +1,8 @@
 //
-//  BaseUIView.h
-//  ProjectApp
+//  AppBaseUIView.h
+//  ProjectAppUIView
 //
-//  Created by libj on 15/7/20.
+//  Created by libj on 15/7/21.
 //  Copyright (c) 2015年 Framework. All rights reserved.
 //
 
@@ -12,11 +12,11 @@
 #define MAS_SHORTHAND
 //define this constant if you want to enable auto-boxing for default syntax
 #define MAS_SHORTHAND_GLOBALS
-#import <ProjectAppUIView/Masonry.h>
+#import "Masonry.h"
 
 #pragma mark -- 引用公用文件
 #import <ProjectAppCommon/CommonDefine.h>
 
-@interface BaseUIView : UIView
+@interface AppBaseUIView : UIView
 
 @end
