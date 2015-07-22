@@ -12,7 +12,7 @@
 #define MAS_SHORTHAND
 //define this constant if you want to enable auto-boxing for default syntax
 #define MAS_SHORTHAND_GLOBALS
-#import <ProjectAppUIView/Masonry.h>
+//#import <ProjectAppUIView/Masonry.h>
 
 #pragma mark -- 引用公用文件
 #import <ProjectAppCommon/CommonDefine.h>
