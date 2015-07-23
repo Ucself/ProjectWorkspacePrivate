@@ -21,7 +21,7 @@
 		8A28685C1B5F339900F276C7 /* QRRSBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A28684F1B5F339900F276C7 /* QRRSBlock.h */; };
 		8A28685D1B5F339900F276C7 /* QRRSBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2868501B5F339900F276C7 /* QRRSBlock.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		8A28685E1B5F339900F276C7 /* QRCorrectionLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2868511B5F339900F276C7 /* QRCorrectionLevel.h */; };
-		8A28685F1B5F339900F276C7 /* QREncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2868521B5F339900F276C7 /* QREncoder.h */; };
+		8A28685F1B5F339900F276C7 /* QREncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2868521B5F339900F276C7 /* QREncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A2868611B5F342E00F276C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2868601B5F342E00F276C7 /* CoreGraphics.framework */; };
 		8A2869701B5F778A00F276C7 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A28695A1B5F778A00F276C7 /* libzbar.a */; };
 		8A2869711B5F778A00F276C7 /* Decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A28695C1B5F778A00F276C7 /* Decoder.h */; };
@@ -278,6 +278,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A28685F1B5F339900F276C7 /* QREncoder.h in Headers */,
 				8ABA92F41B5E435B00BB2300 /* AppBaseUIView.h in Headers */,
 				8A28697E1B5F778A00F276C7 /* ZBarImage.h in Headers */,
 				8A2869801B5F778A00F276C7 /* ZBarReaderController.h in Headers */,
@@ -301,7 +302,6 @@
 				8A2869821B5F778A00F276C7 /* ZBarReaderViewController.h in Headers */,
 				8A3F150A1ACA470D00E5A206 /* ProjectAppUIView.h in Headers */,
 				8A2868581B5F339900F276C7 /* QRMatrix.h in Headers */,
-				8A28685F1B5F339900F276C7 /* QREncoder.h in Headers */,
 				8A2869741B5F778A00F276C7 /* ImageScanner.h in Headers */,
 				8A2869841B5F778A00F276C7 /* ZBarSymbol.h in Headers */,
 				8A2869721B5F778A00F276C7 /* Exception.h in Headers */,
