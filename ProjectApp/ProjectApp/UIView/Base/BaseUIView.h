@@ -16,6 +16,10 @@
 
 #pragma mark -- 引用公用文件
 #import <ProjectAppCommon/CommonDefine.h>
+#import <ProjectAppCommon/DataValidation.h>
+#import <ProjectAppDataInterface/NetInterFace.h>
+#import <ProjectAppUIView/AppBaseUIView.h>
+
 
 @interface BaseUIView : UIView
 

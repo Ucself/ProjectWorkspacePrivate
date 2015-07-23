@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A1242301B609D1A001E0889 /* ProjectAppCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A12422F1B609D1A001E0889 /* ProjectAppCommon.framework */; };
+		8A1242321B609D27001E0889 /* ProjectAppDataInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1242311B609D27001E0889 /* ProjectAppDataInterface.framework */; };
+		8A1242341B609DAF001E0889 /* ProjectAppUIView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1242331B609DAF001E0889 /* ProjectAppUIView.framework */; };
 		8A3CDAFF1B5CD079004496AA /* BaseUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3CDAFE1B5CD079004496AA /* BaseUIView.m */; };
 		8A3CDB021B5CD21B004496AA /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3CDB011B5CD21B004496AA /* BaseModel.m */; };
 		8A3F14591ACA42F600E5A206 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F14581ACA42F600E5A206 /* main.m */; };
@@ -20,10 +23,6 @@
 		8A9860BC1B5795D500B6F257 /* ResultDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9860BB1B5795D500B6F257 /* ResultDataModel.m */; };
 		8A9860BF1B57A0FD00B6F257 /* NetInterfaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9860BE1B57A0FD00B6F257 /* NetInterfaceManager.m */; };
 		8ABA92D71B5DE49C00BB2300 /* BaseUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA92D61B5DE49C00BB2300 /* BaseUIViewController.m */; };
-		8ABA92EA1B5DF79400BB2300 /* ProjectAppCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABA92E61B5DF79400BB2300 /* ProjectAppCommon.framework */; };
-		8ABA92EB1B5DF79400BB2300 /* ProjectAppDataInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABA92E71B5DF79400BB2300 /* ProjectAppDataInterface.framework */; };
-		8ABA92EC1B5DF79400BB2300 /* ProjectAppDataModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABA92E81B5DF79400BB2300 /* ProjectAppDataModel.framework */; };
-		8ABA92ED1B5DF79400BB2300 /* ProjectAppUIView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABA92E91B5DF79400BB2300 /* ProjectAppUIView.framework */; };
 		8AE1E1DF1B560E67005E547A /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1E1DE1B560E67005E547A /* AppViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A12422F1B609D1A001E0889 /* ProjectAppCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProjectAppCommon.framework; path = "../ProjectAppCommon/build/Debug-iphoneos/ProjectAppCommon.framework"; sourceTree = "<group>"; };
+		8A1242311B609D27001E0889 /* ProjectAppDataInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProjectAppDataInterface.framework; path = "../ProjectAppDataInterface/build/Debug-iphoneos/ProjectAppDataInterface.framework"; sourceTree = "<group>"; };
+		8A1242331B609DAF001E0889 /* ProjectAppUIView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProjectAppUIView.framework; path = "../ProjectAppUIView/build/Debug-iphoneos/ProjectAppUIView.framework"; sourceTree = "<group>"; };
 		8A3CDAFD1B5CD079004496AA /* BaseUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseUIView.h; sourceTree = "<group>"; };
 		8A3CDAFE1B5CD079004496AA /* BaseUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseUIView.m; sourceTree = "<group>"; };
 		8A3CDB001B5CD21B004496AA /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
@@ -63,10 +65,6 @@
 		8A9860BE1B57A0FD00B6F257 /* NetInterfaceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetInterfaceManager.m; sourceTree = "<group>"; };
 		8ABA92D51B5DE49C00BB2300 /* BaseUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseUIViewController.h; sourceTree = "<group>"; };
 		8ABA92D61B5DE49C00BB2300 /* BaseUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseUIViewController.m; sourceTree = "<group>"; };
-		8ABA92E61B5DF79400BB2300 /* ProjectAppCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProjectAppCommon.framework; path = "../../../../Library/Developer/Xcode/DerivedData/ProjectWorkspace-cazurdojvrvbzzesqvtcawqljovi/Build/Products/Debug-iphoneos/ProjectAppCommon.framework"; sourceTree = "<group>"; };
-		8ABA92E71B5DF79400BB2300 /* ProjectAppDataInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProjectAppDataInterface.framework; path = "../../../../Library/Developer/Xcode/DerivedData/ProjectWorkspace-cazurdojvrvbzzesqvtcawqljovi/Build/Products/Debug-iphoneos/ProjectAppDataInterface.framework"; sourceTree = "<group>"; };
-		8ABA92E81B5DF79400BB2300 /* ProjectAppDataModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProjectAppDataModel.framework; path = "../../../../Library/Developer/Xcode/DerivedData/ProjectWorkspace-cazurdojvrvbzzesqvtcawqljovi/Build/Products/Debug-iphoneos/ProjectAppDataModel.framework"; sourceTree = "<group>"; };
-		8ABA92E91B5DF79400BB2300 /* ProjectAppUIView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProjectAppUIView.framework; path = "../../../../Library/Developer/Xcode/DerivedData/ProjectWorkspace-cazurdojvrvbzzesqvtcawqljovi/Build/Products/Debug-iphoneos/ProjectAppUIView.framework"; sourceTree = "<group>"; };
 		8AE1E1DD1B560E67005E547A /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
 		8AE1E1DE1B560E67005E547A /* AppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,10 +74,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ABA92EA1B5DF79400BB2300 /* ProjectAppCommon.framework in Frameworks */,
-				8ABA92EB1B5DF79400BB2300 /* ProjectAppDataInterface.framework in Frameworks */,
-				8ABA92EC1B5DF79400BB2300 /* ProjectAppDataModel.framework in Frameworks */,
-				8ABA92ED1B5DF79400BB2300 /* ProjectAppUIView.framework in Frameworks */,
+				8A1242341B609DAF001E0889 /* ProjectAppUIView.framework in Frameworks */,
+				8A1242321B609D27001E0889 /* ProjectAppDataInterface.framework in Frameworks */,
+				8A1242301B609D1A001E0889 /* ProjectAppCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,10 +93,9 @@
 		8A3F144A1ACA42F600E5A206 = {
 			isa = PBXGroup;
 			children = (
-				8ABA92E61B5DF79400BB2300 /* ProjectAppCommon.framework */,
-				8ABA92E71B5DF79400BB2300 /* ProjectAppDataInterface.framework */,
-				8ABA92E81B5DF79400BB2300 /* ProjectAppDataModel.framework */,
-				8ABA92E91B5DF79400BB2300 /* ProjectAppUIView.framework */,
+				8A1242331B609DAF001E0889 /* ProjectAppUIView.framework */,
+				8A1242311B609D27001E0889 /* ProjectAppDataInterface.framework */,
+				8A12422F1B609D1A001E0889 /* ProjectAppCommon.framework */,
 				8A3F14551ACA42F600E5A206 /* ProjectApp */,
 				8A3F146F1ACA42F700E5A206 /* ProjectAppTests */,
 				8A3F14541ACA42F600E5A206 /* Products */,
@@ -471,8 +467,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ProjectWorkspace-cazurdojvrvbzzesqvtcawqljovi/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)Common/build/Debug-iphoneos",
+					"$(PROJECT_DIR)DataInterface/build/Debug-iphoneos",
+					"$(PROJECT_DIR)UIView/build/Debug-iphoneos",
 				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ProjectApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -486,8 +485,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ProjectWorkspace-cazurdojvrvbzzesqvtcawqljovi/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)Common/build/Debug-iphoneos",
+					"$(PROJECT_DIR)DataInterface/build/Debug-iphoneos",
+					"$(PROJECT_DIR)UIView/build/Debug-iphoneos",
 				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ProjectApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

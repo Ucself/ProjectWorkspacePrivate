@@ -1,10 +1,13 @@
 //
 //  Masonry.h
-//  Masonry
+//  ProjectAppUIView
 //
-//  Created by Jonas Budelmann on 20/07/13.
-//  Copyright (c) 2013 cloudling. All rights reserved.
+//  Created by libj on 15/7/22.
+//  Copyright (c) 2015年 Framework. All rights reserved.
 //
+
+#ifndef ProjectAppUIView_Masonry_h
+#define ProjectAppUIView_Masonry_h
 
 #import "MASUtilities.h"
 #import "View+MASAdditions.h"
@@ -18,3 +21,5 @@
 #import "MASConstraintMaker.h"
 #import "MASLayoutConstraint.h"
 #import "NSLayoutConstraint+MASDebugAdditions.h"
+
+#endif
