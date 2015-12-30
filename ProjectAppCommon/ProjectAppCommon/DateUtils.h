@@ -10,22 +10,34 @@
 
 @interface DateUtils : NSObject
 
-//与当前时间比较
-+ (BOOL) beforeNow:(NSString *)date;
+/**
+ *  与当前时间进行比较
+ *
+ *  @param date       传入时间字符串
+ *  @param dateFormat 匹配的时间格式
+ *
+ *  @return
+ */
++(BOOL)beforeNow:(NSString *)date dateFormat:(NSString *)dateFormat;
+
 //当前时间
-+ (NSString *) now;
++(NSString *)now;
+
 //今天
-+ (NSString *) today;
++(NSString *) today;
+
 //今天dd/MM
-+ (NSString *) todayfmtDDMM;
++(NSString *) todayfmtDDMM;
+
 //过后天数
-+ (NSString *) afterDays:(int)days date:(NSString *)date;
++(NSString *) afterDays:(int)days date:(NSString *)date;
+
 //根据时间获取客户端id
-+ (NSString *) clientId:(NSString *)projectId;
++(NSString *) clientId:(NSString *)projectId;
 
-+ (NSDate *)stringToDate:(NSString *)time;
++(NSDate *)stringToDate:(NSString *)time;
 
-+ (NSDate *)stringToDateRT:(NSString *)time;
++(NSDate *)stringToDateRT:(NSString *)time;
 /**
  *  格式化时间到字符串
  *  @param date   要格式化的日间

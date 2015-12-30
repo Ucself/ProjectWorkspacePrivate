@@ -20,14 +20,22 @@
     
     return formatter;
 }
-
-+ (BOOL) beforeNow:(NSString *)date{
+/**
+ *  与当前时间进行比较
+ *
+ *  @param date       传入时间字符串
+ *  @param dateFormat 匹配的时间格式
+ *
+ *  @return
+ */
++(BOOL)beforeNow:(NSString *)date dateFormat:(NSString *)dateFormat;
+{
     NSDate *now = [NSDate date];
     NSDateFormatter *formatter = [DateUtils dateFormatterInstance];
-    [formatter setDateFormat:@"yyyy-MM-dd"];
+    [formatter setDateFormat:dateFormat];
     NSDate *time = [formatter dateFromString:date];
     NSComparisonResult result = [now compare:time];
-    if(result<0){
+    if(result < 0){
         return NO;
     }
     else{

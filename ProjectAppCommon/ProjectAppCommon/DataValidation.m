@@ -14,7 +14,7 @@
 /*
  *  用正则判断用户名，是否2－16位
  */
-+ (BOOL) checkUserName:(NSString *)text
++(BOOL)checkUserName:(NSString *)text
 {
     NSString *Regex = @"^\\w{2,16}$";
     NSPredicate *userName = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", Regex];
@@ -25,7 +25,7 @@
 /*
  *  用正则判断邮箱
  */
-+ (BOOL) checkEmail:(NSString *)text
++(BOOL)checkEmail:(NSString *)text
 {
     NSString *Regex = @"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}";
     NSPredicate *email = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", Regex];
@@ -35,7 +35,7 @@
 /*
  *  请输入6-16位字母和数字,符号两种以上组合
  */
-+ (BOOL) checkPassword:(NSString *)text
++(BOOL)checkPassword:(NSString *)text
 {
     NSString *Regex = @"^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z\\-\\/\\:\\;\\(\\)\\$\\&\\@\\”\\.\\,\\?\\!\\’\\[\\]\\{\\}\\#\\%\\^\\*\\+\\=\\_\\|\\~\\<\\>\\€\\£\\¥\\•]{6,16}$";
     NSPredicate *password = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", Regex];
@@ -45,7 +45,7 @@
 /*
  *  得到字符串长度 中英文混合情况下
  */
-+(int)lengthToInt:(NSString*)string;
++(int)lengthToInt:(NSString *)string;
 {
     //去掉空格
     NSString *st = [string  stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
@@ -64,7 +64,7 @@
 }
 
 
-+(BOOL) isAllPhoneNumber:(NSString *)mobileNum
++(BOOL)isAllPhoneNumber:(NSString *)mobileNum
 {
     //手机，11位 ，1开头，第二位3、4、5、8，
     NSString *phoneMobile = @"^((13[0-9])|(14[0-9])|(15[^4,\\D])|(18[0,1-9])|(17[0-9]))\\d{8}$";
@@ -92,7 +92,7 @@
         return NO;
     }
 }
-+ (BOOL)isMobileNumber:(NSString *)mobileNum
++(BOOL)isMobileNumber:(NSString *)mobileNum
 {
     /**
      * 手机号码
@@ -144,7 +144,7 @@
 /*
  *  URL解码
  */
-+ (NSString *)URLDecodedString:(NSString*)stringURL
++(NSString *)URLDecodedString:(NSString *)stringURL
 {
     return (__bridge_transfer NSString *)CFURLCreateStringByReplacingPercentEscapesUsingEncoding(kCFAllocatorDefault,
                                                                                                  (CFStringRef)stringURL,
@@ -155,7 +155,7 @@
 /*
  *  判断字符串是否是数字组成
  */
-+ (BOOL)isNumberStr:(NSString*)string
++ (BOOL)isNumberStr:(NSString *)string
 {
     NSString *number =@"0123456789";
     NSCharacterSet * cs =[[NSCharacterSet characterSetWithCharactersInString:number]invertedSet];
@@ -166,7 +166,7 @@
 /*
  *  判断手机型号是否是iPhone5；
  */
-+ (BOOL)isiPhone5Height:(NSInteger)height
++(BOOL)isiPhone5Height:(NSInteger)height
 {
     if (height>481){
         return YES;
@@ -180,7 +180,7 @@
  *  判断是否是身份证
  *  需要-(BOOL)isNumberStr:(NSString*)string配合
  */
-+(BOOL)isPersonCard:(NSString*)string
++(BOOL)isPersonCard:(NSString *)string
 {
     //    DBG_MSG(@"%d",[self length]);
     if ([string length]!= 15 && [string length] != 18)
@@ -205,7 +205,7 @@
 /**
  *  判断字符串是否全是数字与字母
  */
-+(BOOL)isNumberAndLetterStr:(NSString*)string
++(BOOL)isNumberAndLetterStr:(NSString *)string
 {
     NSString *number =@"0123456789abcefghijklmnopqrstuvwxyzABCEFGHIJKLMNOPQRSTUVWXYZ";
     NSCharacterSet *cs =[[NSCharacterSet characterSetWithCharactersInString:number]invertedSet];
@@ -215,7 +215,7 @@
 /*
  *  判断是否为中文字符
  */
-+ (BOOL)isChineseStr:(NSString *)string
++(BOOL)isChineseStr:(NSString *)string
 {
     NSString *Regex = @"^[\u4E00-\u9FFF]+$";
     NSPredicate *textString = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", Regex];
@@ -225,7 +225,7 @@
 /**
  *  判断字符串是否包含中文
  */
-+(BOOL)isHasChineseCharacter:(NSString*)string
++(BOOL)isHasChineseCharacter:(NSString *)string
 {
     BOOL ret = NO;
     for(int i=0; i< [string length];i++){
@@ -239,7 +239,7 @@
 /**
  *  验证电话号码省市区
  */
-+ (void) phoneRegionQuery:(NSString*)phonenumber finished:(void(^)(NSString *addr))finished{
++(void)phoneRegionQuery:(NSString *)phonenumber finished:(void(^)(NSString *addr))finished{
     //使用淘宝的查询api
     //http://tcc.taobao.com/cc/json/mobile_tel_segment.htm?tel=15850781443
     

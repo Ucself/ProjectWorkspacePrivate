@@ -33,11 +33,11 @@ NSLog(@"%@ <- %@ ->",[NSString stringWithUTF8String:__FUNCTION__], [NSString str
 #endif
 
 //设备的相关信息
-#define SYSVERSION  [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]
-#define ISIOS7LATER   ( [[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0 )
-#define ISIOS8BEFORE   ( [[[UIDevice currentDevice] systemVersion] floatValue] < 8.0 )
-#define deviceWidth  [UIScreen mainScreen].bounds.size.width
-#define deviceHeight  [UIScreen mainScreen].bounds.size.height
-#define deviceUUID  [[[UIDevice currentDevice] identifierForVendor] UUIDString]
+#define SYSVERSION      [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]
+#define ISIOS7LATER     ( [[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0 )
+#define ISIOS8BEFORE    ( [[[UIDevice currentDevice] systemVersion] floatValue] < 8.0 )
+#define deviceWidth     [UIScreen mainScreen].bounds.size.width
+#define deviceHeight    [UIScreen mainScreen].bounds.size.height
+#define deviceUUID      [[[UIDevice currentDevice] identifierForVendor] UUIDString]
 
 #endif

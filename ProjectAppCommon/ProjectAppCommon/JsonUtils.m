@@ -27,6 +27,9 @@
     NSError* error;
     NSData* jsonData = [NSJSONSerialization dataWithJSONObject:dcit options:NSJSONWritingPrettyPrinted error:&error];
     NSString* json = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+    if (error) {
+        DBG_MSG(@"dictToJson failed: %@", error.description);
+    }
     return json;
 }
 
