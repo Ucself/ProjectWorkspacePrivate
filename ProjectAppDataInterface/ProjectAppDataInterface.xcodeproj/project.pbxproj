@@ -169,10 +169,9 @@
 		8A3F15461ACA523400E5A206 = {
 			isa = PBXGroup;
 			children = (
-				8A1242351B609E11001E0889 /* ProjectAppCommon.framework */,
-				8AF38C431B3A8C2D00193382 /* libsqlite3.0.dylib */,
 				8A3F15521ACA523400E5A206 /* ProjectAppDataInterface */,
 				8A3F155F1ACA523400E5A206 /* ProjectAppDataInterfaceTests */,
+				ADB6D8AF1D23C72100B48C4E /* Framework */,
 				8A3F15511ACA523400E5A206 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -297,6 +296,15 @@
 				8A8031C81B39487500C91FD8 /* FMResultSet.m */,
 			);
 			path = FMDB;
+			sourceTree = "<group>";
+		};
+		ADB6D8AF1D23C72100B48C4E /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				8A1242351B609E11001E0889 /* ProjectAppCommon.framework */,
+				8AF38C431B3A8C2D00193382 /* libsqlite3.0.dylib */,
+			);
+			name = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

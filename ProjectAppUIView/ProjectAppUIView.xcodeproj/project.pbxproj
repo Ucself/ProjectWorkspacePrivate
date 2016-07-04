@@ -211,15 +211,9 @@
 		8A3F14FA1ACA470D00E5A206 = {
 			isa = PBXGroup;
 			children = (
-				8A12422D1B609C3B001E0889 /* ProjectAppDataInterface.framework */,
-				8A12422B1B609C2F001E0889 /* ProjectAppCommon.framework */,
-				8A28698D1B5F793200F276C7 /* libiconv.dylib */,
-				8A2868601B5F342E00F276C7 /* CoreGraphics.framework */,
-				8A2869891B5F78E700F276C7 /* CoreMedia.framework */,
-				8A2869871B5F78CE00F276C7 /* CoreAudio.framework */,
-				8A2869851B5F78AC00F276C7 /* AVFoundation.framework */,
 				8A3F15061ACA470D00E5A206 /* ProjectAppUIView */,
 				8A3F15131ACA470D00E5A206 /* ProjectAppUIViewTests */,
+				ADB6D8B01D23C73A00B48C4E /* Framework */,
 				8A3F15051ACA470D00E5A206 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -269,6 +263,20 @@
 				8A3F15151ACA470D00E5A206 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADB6D8B01D23C73A00B48C4E /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				8A12422D1B609C3B001E0889 /* ProjectAppDataInterface.framework */,
+				8A12422B1B609C2F001E0889 /* ProjectAppCommon.framework */,
+				8A28698D1B5F793200F276C7 /* libiconv.dylib */,
+				8A2868601B5F342E00F276C7 /* CoreGraphics.framework */,
+				8A2869891B5F78E700F276C7 /* CoreMedia.framework */,
+				8A2869871B5F78CE00F276C7 /* CoreAudio.framework */,
+				8A2869851B5F78AC00F276C7 /* AVFoundation.framework */,
+			);
+			name = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

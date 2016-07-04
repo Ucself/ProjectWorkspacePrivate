@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8A12422F1B609D1A001E0889 /* ProjectAppCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProjectAppCommon.framework; path = "../ProjectAppCommon/build/Debug-iphoneos/ProjectAppCommon.framework"; sourceTree = "<group>"; };
-		8A1242311B609D27001E0889 /* ProjectAppDataInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProjectAppDataInterface.framework; path = "../ProjectAppDataInterface/build/Debug-iphoneos/ProjectAppDataInterface.framework"; sourceTree = "<group>"; };
-		8A1242331B609DAF001E0889 /* ProjectAppUIView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProjectAppUIView.framework; path = "../ProjectAppUIView/build/Debug-iphoneos/ProjectAppUIView.framework"; sourceTree = "<group>"; };
+		8A12422F1B609D1A001E0889 /* ProjectAppCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProjectAppCommon.framework; path = "/Users/yidafeiniu/Documents/GitHub/ProjectWorkspacePrivate/ProjectAppCommon/build/Debug-iphoneos/ProjectAppCommon.framework"; sourceTree = "<absolute>"; };
+		8A1242311B609D27001E0889 /* ProjectAppDataInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProjectAppDataInterface.framework; path = "/Users/yidafeiniu/Documents/GitHub/ProjectWorkspacePrivate/ProjectAppDataInterface/build/Debug-iphoneos/ProjectAppDataInterface.framework"; sourceTree = "<absolute>"; };
+		8A1242331B609DAF001E0889 /* ProjectAppUIView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProjectAppUIView.framework; path = "/Users/yidafeiniu/Documents/GitHub/ProjectWorkspacePrivate/ProjectAppUIView/build/Debug-iphoneos/ProjectAppUIView.framework"; sourceTree = "<absolute>"; };
 		8A3CDAFD1B5CD079004496AA /* BaseUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseUIView.h; sourceTree = "<group>"; };
 		8A3CDAFE1B5CD079004496AA /* BaseUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseUIView.m; sourceTree = "<group>"; };
 		8A3CDB001B5CD21B004496AA /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
@@ -93,11 +93,9 @@
 		8A3F144A1ACA42F600E5A206 = {
 			isa = PBXGroup;
 			children = (
-				8A1242331B609DAF001E0889 /* ProjectAppUIView.framework */,
-				8A1242311B609D27001E0889 /* ProjectAppDataInterface.framework */,
-				8A12422F1B609D1A001E0889 /* ProjectAppCommon.framework */,
 				8A3F14551ACA42F600E5A206 /* ProjectApp */,
 				8A3F146F1ACA42F700E5A206 /* ProjectAppTests */,
+				ADB6D8B11D23C74D00B48C4E /* Framework */,
 				8A3F14541ACA42F600E5A206 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -228,6 +226,16 @@
 				8A4DE5B91B58EA8F00A26BDE /* Base */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		ADB6D8B11D23C74D00B48C4E /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				8A1242331B609DAF001E0889 /* ProjectAppUIView.framework */,
+				8A1242311B609D27001E0889 /* ProjectAppDataInterface.framework */,
+				8A12422F1B609D1A001E0889 /* ProjectAppCommon.framework */,
+			);
+			name = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
