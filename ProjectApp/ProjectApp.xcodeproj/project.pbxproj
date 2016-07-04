@@ -24,6 +24,7 @@
 		8A9860BF1B57A0FD00B6F257 /* NetInterfaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9860BE1B57A0FD00B6F257 /* NetInterfaceManager.m */; };
 		8ABA92D71B5DE49C00BB2300 /* BaseUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA92D61B5DE49C00BB2300 /* BaseUIViewController.m */; };
 		8AE1E1DF1B560E67005E547A /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1E1DE1B560E67005E547A /* AppViewController.m */; };
+		ADF755411D2A5E2A005622B6 /* ProjectAppDataModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF755401D2A5E2A005622B6 /* ProjectAppDataModel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		8ABA92D61B5DE49C00BB2300 /* BaseUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseUIViewController.m; sourceTree = "<group>"; };
 		8AE1E1DD1B560E67005E547A /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
 		8AE1E1DE1B560E67005E547A /* AppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppViewController.m; sourceTree = "<group>"; };
+		ADF755401D2A5E2A005622B6 /* ProjectAppDataModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProjectAppDataModel.framework; path = "/Users/yidafeiniu/Documents/GitHub/ProjectWorkspacePrivate/ProjectAppDataModel/build/Debug-iphoneos/ProjectAppDataModel.framework"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF755411D2A5E2A005622B6 /* ProjectAppDataModel.framework in Frameworks */,
 				8A1242341B609DAF001E0889 /* ProjectAppUIView.framework in Frameworks */,
 				8A1242321B609D27001E0889 /* ProjectAppDataInterface.framework in Frameworks */,
 				8A1242301B609D1A001E0889 /* ProjectAppCommon.framework in Frameworks */,
@@ -231,6 +234,7 @@
 		ADB6D8B11D23C74D00B48C4E /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				ADF755401D2A5E2A005622B6 /* ProjectAppDataModel.framework */,
 				8A1242331B609DAF001E0889 /* ProjectAppUIView.framework */,
 				8A1242311B609D27001E0889 /* ProjectAppDataInterface.framework */,
 				8A12422F1B609D1A001E0889 /* ProjectAppCommon.framework */,
@@ -287,7 +291,7 @@
 				TargetAttributes = {
 					8A3F14521ACA42F600E5A206 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = 4GH32AFGEC;
+						DevelopmentTeam = V72TDH6G9T;
 					};
 					8A3F146B1ACA42F700E5A206 = {
 						CreatedOnToolsVersion = 6.2;
@@ -411,6 +415,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Baojun Li (PAZU93Q3SV)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Baojun Li (PAZU93Q3SV)";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -452,6 +457,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -473,12 +479,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)Common/build/Debug-iphoneos",
 					"$(PROJECT_DIR)DataInterface/build/Debug-iphoneos",
 					"$(PROJECT_DIR)UIView/build/Debug-iphoneos",
+					"$(PROJECT_DIR)DataModel/build/Debug-iphoneos",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -488,6 +496,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -496,12 +505,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)Common/build/Debug-iphoneos",
 					"$(PROJECT_DIR)DataInterface/build/Debug-iphoneos",
 					"$(PROJECT_DIR)UIView/build/Debug-iphoneos",
+					"$(PROJECT_DIR)DataModel/build/Debug-iphoneos",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -511,6 +522,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

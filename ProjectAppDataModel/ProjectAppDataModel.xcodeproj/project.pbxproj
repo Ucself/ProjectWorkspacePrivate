@@ -10,6 +10,7 @@
 		8A3F15301ACA475300E5A206 /* ProjectAppDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A3F152F1ACA475300E5A206 /* ProjectAppDataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A3F15361ACA475300E5A206 /* ProjectAppDataModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3F152A1ACA475300E5A206 /* ProjectAppDataModel.framework */; };
 		8A3F153D1ACA475300E5A206 /* ProjectAppDataModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F153C1ACA475300E5A206 /* ProjectAppDataModelTests.m */; };
+		ADF7553F1D2A5DDC005622B6 /* ProjectAppCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF7553E1D2A5DDC005622B6 /* ProjectAppCommon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		8A3F15351ACA475300E5A206 /* ProjectAppDataModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectAppDataModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3F153B1ACA475300E5A206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A3F153C1ACA475300E5A206 /* ProjectAppDataModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectAppDataModelTests.m; sourceTree = "<group>"; };
+		ADF7553E1D2A5DDC005622B6 /* ProjectAppCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProjectAppCommon.framework; path = "../../../../Library/Developer/Xcode/DerivedData/ProjectWorkspace-epulpltdparzagdqtghouedfqyyw/Build/Products/Debug-iphoneos/ProjectAppCommon.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF7553F1D2A5DDC005622B6 /* ProjectAppCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +58,7 @@
 			children = (
 				8A3F152C1ACA475300E5A206 /* ProjectAppDataModel */,
 				8A3F15391ACA475300E5A206 /* ProjectAppDataModelTests */,
+				ADF7553D1D2A5D83005622B6 /* Framework */,
 				8A3F152B1ACA475300E5A206 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +104,14 @@
 				8A3F153B1ACA475300E5A206 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADF7553D1D2A5D83005622B6 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				ADF7553E1D2A5DDC005622B6 /* ProjectAppCommon.framework */,
+			);
+			name = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +263,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -266,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -296,6 +309,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -305,7 +319,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,6 +339,7 @@
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ProjectAppDataModel/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -341,6 +356,7 @@
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ProjectAppDataModel/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

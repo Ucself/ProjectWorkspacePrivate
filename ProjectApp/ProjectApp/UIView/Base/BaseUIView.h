@@ -19,8 +19,6 @@
 #import <ProjectAppCommon/CommonDefine.h>
 #import <ProjectAppCommon/DataValidation.h>
 #import <ProjectAppDataInterface/NetInterFace.h>
-#import <ProjectAppUIView/AppBaseUIView.h>
-#import <ProjectAppUIView/QREncoder.h>
 
 
 @interface BaseUIView : UIView

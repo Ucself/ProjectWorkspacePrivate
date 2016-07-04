@@ -30,4 +30,3 @@ FOUNDATION_EXPORT const unsigned char ProjectAppUIViewVersionString[];
 //#import <ProjectAppUIView/Masonry.h>
 //#import <ProjectAppUIView/ImagePreView.h>
 //#import <ProjectAppUIView/SegmentedUIView.h>
-#import <ProjectAppUIView/QREncoder.h>
